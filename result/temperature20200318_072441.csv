@@ -1,0 +1,4 @@
+Time[min];Temperature[°C];Power[W];Observer state Temperature[°C];Observer state Power[W];Observer state Ambient temperature[°C]
+0.01;0.0;1700.0;15.0;0.0;22.0
+0.18;18.0;1700.0;15.226619198461615;74.55214554780233;22.0
+0.34;18.0;1700.0;16.958744374371552;153.6575677983521;22.0
