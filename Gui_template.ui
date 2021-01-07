@@ -1,0 +1,398 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface>
+  <object class="ttk.Frame" id="Frame_1">
+    <property name="height">200</property>
+    <property name="width">200</property>
+    <layout>
+      <property name="column">0</property>
+      <property name="propagate">True</property>
+      <property name="row">0</property>
+      <property name="sticky">nw</property>
+    </layout>
+    <child>
+      <object class="ttk.Labelframe" id="Teplota">
+        <property name="height">100</property>
+        <property name="text" translatable="yes">Labelframe_1</property>
+        <property name="width">330</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">False</property>
+          <property name="row">0</property>
+          <property name="sticky">nw</property>
+        </layout>
+        <child>
+          <object class="ttk.Entry" id="tem_setpoint">
+            <property name="cursor">arrow</property>
+            <property name="font">TkDefaultFont</property>
+            <property name="justify">right</property>
+            <property name="text" translatable="yes">40</property>
+            <layout>
+              <property name="column">1</property>
+              <property name="propagate">True</property>
+              <property name="row">1</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="act_tem_label">
+            <property name="anchor">w</property>
+            <property name="cursor">arrow</property>
+            <property name="takefocus">false</property>
+            <property name="text" translatable="yes">Actual temperature:</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Message" id="meas_tem">
+            <property name="text" translatable="yes">--</property>
+            <layout>
+              <property name="column">1</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="sticky">e</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Button" id="set_tem">
+            <property name="command">set_tem</property>
+            <property name="text" translatable="yes">Set</property>
+            <layout>
+              <property name="column">2</property>
+              <property name="propagate">True</property>
+              <property name="row">2</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="tem_label">
+            <property name="cursor">arrow</property>
+            <property name="text" translatable="yes">Temperature set</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">1</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="celsius">
+            <property name="text" translatable="yes">°C</property>
+            <layout>
+              <property name="column">2</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="sticky">w</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="mass_label">
+            <property name="compound">top</property>
+            <property name="text" translatable="yes">mass[kg]</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">2</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Entry" id="mass">
+            <property name="cursor">arrow</property>
+            <property name="justify">right</property>
+            <property name="state">normal</property>
+            <property name="takefocus">false</property>
+            <property name="text" translatable="yes">20</property>
+            <layout>
+              <property name="column">1</property>
+              <property name="propagate">True</property>
+              <property name="row">2</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Labelframe" id="PID_settings">
+        <property name="height">100</property>
+        <property name="labelanchor">nw</property>
+        <property name="takefocus">false</property>
+        <property name="text" translatable="yes">PID_settings</property>
+        <property name="width">330</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">False</property>
+          <property name="row">1</property>
+          <property name="sticky">nw</property>
+          <rows>
+            <row id="0">
+              <property name="minsize">0</property>
+              <property name="weight">0</property>
+            </row>
+          </rows>
+          <columns>
+            <column id="0">
+              <property name="minsize">110</property>
+            </column>
+          </columns>
+        </layout>
+        <child>
+          <object class="ttk.Label" id="P_label">
+            <property name="text" translatable="yes">P</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="sticky">w</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="I_label">
+            <property name="text" translatable="yes">I</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">1</property>
+              <property name="sticky">w</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="D_label">
+            <property name="text" translatable="yes">D</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">2</property>
+              <property name="sticky">w</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Entry" id="P_gain">
+            <property name="cursor">arrow</property>
+            <property name="font">TkDefaultFont</property>
+            <property name="justify">right</property>
+            <property name="text" translatable="yes">0</property>
+            <property name="validate">none</property>
+            <layout>
+              <property name="column">1</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Entry" id="I_gain">
+            <property name="justify">right</property>
+            <property name="text" translatable="yes">0</property>
+            <layout>
+              <property name="column">1</property>
+              <property name="propagate">True</property>
+              <property name="row">1</property>
+              <property name="sticky">w</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Entry" id="D_gain">
+            <property name="cursor">arrow</property>
+            <property name="exportselection">true</property>
+            <property name="justify">right</property>
+            <property name="takefocus">false</property>
+            <property name="text" translatable="yes">0</property>
+            <property name="validate">none</property>
+            <layout>
+              <property name="column">1</property>
+              <property name="propagate">True</property>
+              <property name="row">2</property>
+              <property name="sticky">w</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Button" id="pid_set">
+            <property name="command">pid_set</property>
+            <property name="compound">top</property>
+            <property name="cursor">arrow</property>
+            <property name="state">normal</property>
+            <property name="text" translatable="yes">Set</property>
+            <layout>
+              <property name="column">2</property>
+              <property name="propagate">True</property>
+              <property name="row">2</property>
+              <property name="sticky">se</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="p_act">
+            <property name="text" translatable="yes">0</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="sticky">e</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="i_act">
+            <property name="text" translatable="yes">0</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">1</property>
+              <property name="sticky">e</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="d_act">
+            <property name="text" translatable="yes">0</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">2</property>
+              <property name="sticky">e</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Labelframe" id="Stirrer">
+        <property name="height">100</property>
+        <property name="labelanchor">nw</property>
+        <property name="text" translatable="yes">Stirrer</property>
+        <property name="width">320</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">2</property>
+          <property name="sticky">nw</property>
+          <columns>
+            <column id="1">
+              <property name="minsize">180</property>
+            </column>
+          </columns>
+        </layout>
+        <child>
+          <object class="ttk.Label" id="speed_label">
+            <property name="anchor">center</property>
+            <property name="background">#5af849</property>
+            <property name="compound">top</property>
+            <property name="font">TkTextFont</property>
+            <property name="text" translatable="yes">Stirrer ON!</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Checkbutton" id="stirrer_set_2">
+            <property name="command">stirrer_set_1</property>
+            <property name="compound">left</property>
+            <property name="text" translatable="yes">activate stirrer</property>
+            <property name="variable">string:stir_act</property>
+            <layout>
+              <property name="column">1</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Labelframe" id="Logger">
+        <property name="height">45</property>
+        <property name="labelanchor">nw</property>
+        <property name="text" translatable="yes">Logger</property>
+        <property name="width">320</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">False</property>
+          <property name="row">3</property>
+          <property name="sticky">nw</property>
+          <columns>
+            <column id="0">
+              <property name="minsize">110</property>
+            </column>
+          </columns>
+        </layout>
+        <child>
+          <object class="ttk.Label" id="logger_label">
+            <property name="background">#5af849</property>
+            <property name="text" translatable="yes">Logger ON!</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="sticky">w</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Checkbutton" id="logger_set">
+            <property name="command">logger_set</property>
+            <property name="text" translatable="yes">activate logger</property>
+            <property name="variable">string:logger_act</property>
+            <layout>
+              <property name="column">1</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Button" id="start_btn">
+        <property name="command">start</property>
+        <property name="text" translatable="yes">Start</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">4</property>
+          <property name="sticky">w</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Button" id="stop_btn">
+        <property name="command">stop</property>
+        <property name="compound">top</property>
+        <property name="cursor">arrow</property>
+        <property name="text" translatable="yes">Stop</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">4</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Button" id="exit_btn">
+        <property name="command">exit</property>
+        <property name="state">normal</property>
+        <property name="takefocus">true</property>
+        <property name="text" translatable="yes">Exit</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">4</property>
+          <property name="sticky">e</property>
+        </layout>
+      </object>
+    </child>
+  </object>
+</interface>
