@@ -220,7 +220,7 @@ class Gui(object):
 
         def read_param():
             #  repeat reading method every 300ms
-            root.after(1000, read_param)
+            root.after(500, read_param)
             # print('Hallo') # debug
             # variables to be read - shared inputs
             temp.set(round(temperature.value, 1))
