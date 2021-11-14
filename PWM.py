@@ -12,7 +12,7 @@ def power_to_PWM(power_to_Ard, power_req, power_heater, power_coil):
         while True:
             # Input
             power = power_req.value  # required power
-            print("power", power)
+            # print("power", power)
             # model parametrization
             Pc = 2000  # ma power of coil in [W]
             Ph = 1500  # max power of heater [W]
@@ -63,7 +63,7 @@ def power_to_PWM(power_to_Ard, power_req, power_heater, power_coil):
                 power_to_Ard[:] = [0, 0]
                 # print('power:', power_to_Ard[:])
                 time.sleep(0.05)
-            print('cycle end')
+            # print('cycle end')
 
 if __name__ == "__main__":
     power_req = Value('d', 0.0)

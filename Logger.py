@@ -34,7 +34,7 @@ class Logger(object):
             powerHeater = str(power_heater.value)
             powerCoil = str(power_coil.value)
 
-            print(states_shared[0])
+            # print(states_shared[0])
             writer.writerow([str(round((time.time() - self.time0)/60, 2)), temp, reftemp, power, powerHeater, powerCoil,
                              str(states_shared[0]), str(states_shared[1]), str(states_shared[2])])
             csv_file.close()

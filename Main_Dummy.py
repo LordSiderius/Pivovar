@@ -7,21 +7,19 @@
 from matplotlib import pyplot as pl
 from multiprocessing import Process, Value, Array
 import Gui_MPC
-import Serial_com
+import Serial_Dummy
 import PWM
 import PID
 from Logger import Logger
 import MPC
 from Logic_control import LogicControl
-from Dummy_System import Dummyplant
+
 
 if __name__ == "__main__":
     # +++ TRAJECTORY DEFINITION +++
     # test scheme for brewing, where pause is necessary
-    desired_time =   [0,  5, 25, 30, 60, 90, 100, 140, 150, 175, 185, 200, 201, 240, 330]
+    desired_time =   [0,  5, 25, 45, 75, 105, 115, 145, 155, 185, 195, 210, 211, 250, 340]
     desired_temps = [25, 25, 37, 37, 55,  55,  62,  62,  72,  72,  80,  80,  65,  99, 99]
-	# desired_time =   [0,  5, 25, 45, 75, 105, 115, 145, 155, 185, 195, 210, 211, 250, 340]
-    # desired_temps = [25, 25, 37, 37, 55,  55,  62,  62,  72,  72,  80,  80,  65,  99, 99]
     # desired_time =   [0, 10, 20, 40,  55, 80, 90, 105,š 105.1, 135,225]
     # desired_temps = [55,  55,  62,  62,  72,  72,  80,  80,  65,  99, 99]
 	# desired_time = [0, 10, 20, 40, 55, 80, 90, 105, 105.1, 135, 225]
@@ -69,9 +67,8 @@ if __name__ == "__main__":
 
 
     # +++ OBJECT INITIALIZATION +++
-    ser = Serial_com.SerComm()
+    ser = Serial_Dummy.SerComm()
     controler = LogicControl()
-    dsy = Dummyplant()
     mpc = MPC.MPC(desired_time, desired_temps)
     pid = PID.Pid()
     logger = Logger()

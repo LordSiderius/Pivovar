@@ -13,7 +13,7 @@ class SerComm(object):
 
     def run(self, tem_queue, power_to_Ard):
         try:
-            ser = serial.Serial('COM9', 9600)
+            ser = serial.Serial('COM8', 9600)
         except:
             ser = serial.Serial('COM10', 9600)
             print('Port COM10 was used instead of COM7')
@@ -35,7 +35,7 @@ class SerComm(object):
 
             # sends value to other processes
             tem_queue.value = temperature
-            print("temperature:", temperature)
+            # print("temperature:", temperature)
 
             [self.power_heater, self.power_coil] = power_to_Ard[:]
             ser.flushOutput()
