@@ -220,7 +220,7 @@ class Gui(object):
 
         def read_param():
             #  repeat reading method every 300ms
-            root.after(300, read_param)
+            root.after(1000, read_param)
             # print('Hallo') # debug
             # variables to be read - shared inputs
             temp.set(round(temperature.value, 1))
@@ -254,6 +254,7 @@ class Gui(object):
             self.y.pop(0)
             self.y.append(temperature.value)
             plot()
+            
         def write_status():
             # sends request to algo to switch mode RUN/PAUSE/STOP
             stateRequest.value = int(self.state)
@@ -264,6 +265,7 @@ class Gui(object):
         read_param()
         # calls gui loop
         root.mainloop()
+        # RAP OS version mainloop()
 
 # standalone version for debug
 if __name__ == "__main__":
@@ -281,10 +283,14 @@ if __name__ == "__main__":
     methodRequest = Value('i', 3)
     powerAdding = Value('d', 0.0)
     powerManual = Value('d', 0.0)
+    powerToPwm = Value('d', 0.0)
     # test scheme, where pause is necessary
     desired_time = [0,  25, 45, 75, 105, 115, 145, 155, 185, 195, 210, 211, 250]
-    fp =           [17, 37, 37, 55,  55,  62,  62,  72,  72,  78,  78,  65,  99]
+    desired_temps =           [17, 37, 37, 55,  55,  62,  62,  72,  72,  78,  78,  65,  99]
     # gui call
-    gui = Gui(temperature, tempSetPoint, timeElapsed, timeMPC, powerInGui, stateOfControl, stateRequest, methodRequest, powerAdding, powerManual, desired_time, fp)
+    gui_interface = [temperature, tempSetPoint, timeElapsed, timeMPC, powerToPwm, stateOfControl, stateRequest, methodRequest,
+                     powerAdding, powerManual, desired_time, desired_temps]
+    gui = Gui(temperature, tempSetPoint, timeElapsed, timeMPC, powerToPwm, stateOfControl, stateRequest, methodRequest,
+                     powerAdding, powerManual, desired_time, desired_temps)
 
 

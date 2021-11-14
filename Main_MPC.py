@@ -14,6 +14,7 @@ from Logger import Logger
 import MPC
 from Logic_control import LogicControl
 from Dummy_System import Dummyplant
+from HW_interface import HW_Interface
 
 if __name__ == "__main__":
     # +++ TRAJECTORY DEFINITION +++
@@ -73,6 +74,7 @@ if __name__ == "__main__":
     mpc = MPC.MPC(desired_time, desired_temps)
     pid = PID.Pid()
     logger = Logger()
+    hw_interface = HW_Interface()
     # --- END OF OBJECT INIT ---
 
     # +++ PROCESSES INTERFACE +++
@@ -90,7 +92,7 @@ if __name__ == "__main__":
 
 
     # +++ PROCESSES INITIALIZATION +++
-    comP = Process(target=ser.run, args=ser_interface) # communication
+    comP = Process(target=hw_interface.run, args=ser_interface) # communication
     guiP = Process(target=Gui_MPC.Gui, args=gui_interface)
     l_ctrP = Process(target=controler.run, args=l_ctr_interface)
     # OFFLINE DUMMY PLANT

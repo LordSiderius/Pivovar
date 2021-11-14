@@ -1,7 +1,7 @@
 from time import time, sleep
 from copy import copy
 from multiprocessing import Value
-import winsound
+#import winsound
 
 # # +++ INTERFACE +++
 # # INPUTS
@@ -118,7 +118,7 @@ class LogicControl(object):
 
         if self.alarmsActive and not self.flagTime and timeMPC.value - self.alarmTime0 >= self.alarmTime:
             print(self.alarmMessage)
-            [winsound.Beep(800, 1000) for i in range(5)]
+            #[winsound.Beep(800, 1000) for i in range(5)]
             self.waitinForCond = True
             self.flagTemp = True
             self.flagTime = True
