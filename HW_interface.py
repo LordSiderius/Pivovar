@@ -61,6 +61,6 @@ class HW_Interface(object):
 if __name__ == "__main__":
     tem_queue = Value('d', 0.0)
     power_to_dev = Array('i', 2)
-    power_to_dev[0]= 1
+    power_to_dev[0] = 1
     hw_interface = HW_Interface()
     hw_interface.run(tem_queue, power_to_dev)

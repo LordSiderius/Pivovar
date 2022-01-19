@@ -1,0 +1,3 @@
+Time[min];Temperature[°C];Reference Temperature[°C];Power[W];Power Heater[W];Power Coil[W];Observer state Temperature[°C];Observer state Power[W];Observer state Ambient temperature[°C]
+0.02;17.0;25.0;0.0;0.0;0.0;15.0;0.0;22.0
+0.19;20.4;25.0;0.0;0.0;0.0;17.102076709505614;58.3309591108995;22.0

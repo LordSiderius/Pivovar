@@ -1,0 +1,6 @@
+numpy~=1.21.4
+cvxopt~=1.2.7
+future~=0.18.2
+matplotlib~=3.4.3
+serial~=0.0.97
+pyserial~=3.5
