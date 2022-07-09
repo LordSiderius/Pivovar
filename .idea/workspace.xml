@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bf15f83-f9f9-45f6-894e-98237336ffc2" name="Default" comment="MPC and Observer connected, only two seconds of heating necessary, something is wrong. Maybe seconds and minutes mixed together. Check again tomorrow.">
+      <change afterPath="$PROJECT_DIR$/../Currency_rates/main.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Lunar_game/.idea/.name" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Lunar_game/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ChecKio/zkurvena_rekurze.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lunar_game/.idea/Lunar_game.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lunar_game/.idea/Lunar_game.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lunar_game/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lunar_game/.idea/misc.xml" afterDir="false" />
@@ -166,12 +166,10 @@
       <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Unknown/Tori_3.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Unknown/Tori_9 (2).jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Unknown/Tori_9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PivoVar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PivoVar.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DummySer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW_interface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gui_py.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gui_py.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MPC.py" beforeDir="false" afterPath="$PROJECT_DIR$/MPC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PWM.py" beforeDir="false" afterPath="$PROJECT_DIR$/PWM.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,28 +225,7 @@
       <recent name="E:\Python_project\PivoVar" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.HW_interface">
-    <configuration name="Dummy_System" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PivoVar" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dummy_System.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Gui_MPC">
     <configuration name="Gui_MPC" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PivoVar" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -262,6 +239,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Gui_MPC.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Gui_py" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PivoVar" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Gui_py.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -316,6 +314,9 @@
       <module name="PivoVar" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -331,19 +332,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Dummy_System" />
       <item itemvalue="Python.Gui_MPC" />
+      <item itemvalue="Python.Gui_py" />
+      <item itemvalue="Python.HW_interface" />
       <item itemvalue="Python.MPC" />
       <item itemvalue="Python.Main_MPC" />
-      <item itemvalue="Python.HW_interface" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Gui_MPC" />
+        <item itemvalue="Python.Gui_py" />
         <item itemvalue="Python.HW_interface" />
         <item itemvalue="Python.Main_MPC" />
         <item itemvalue="Python.MPC" />
-        <item itemvalue="Python.Gui_MPC" />
-        <item itemvalue="Python.Dummy_System" />
       </list>
     </recent_temporary>
   </component>

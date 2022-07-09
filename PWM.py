@@ -14,11 +14,11 @@ def power_to_PWM(power_to_Ard, power_req, power_heater, power_coil):
             power = power_req.value  # required power
             print("power", power)
             # model parametrization
-            Pc = 2000  # ma power of coil in [W]
-            Ph = 1500  # max power of heater [W]
-            tmax = 20  # heating cycle period [s]
-            kc = 0.2  # minimum weight for time when coil is used[-]
-            # kc = 0.0 # minimum weight for time when coil is used[-]
+            Pc = 2000  # max power of coil in [W]
+            Ph = 2500  # max power of heater [W]
+            tmax = 60  # heating cycle period [s]
+            # kc = 0.2  # minimum weight for time when coil is used[-]
+            kc = 0.0  # minimum weight for time when coil is used[-]
 
             #  power request distribution
             Preq_h = power * (1 - kc)  # power request fot heater

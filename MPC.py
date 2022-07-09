@@ -9,12 +9,13 @@ class MPC(object):
         self.fp = desired_data
 
         #  Model - parametrization
-        mass = 15
-        C = 4200
+        mass = 25  # kg of water
+        C = 4200  # thermal capacity of water
         Tau1 = 1 / mass / C
-        Tau2 = 265
-        gain = 1.27
-        alpha = 11.25
+        Tau2 = 265  # intertia of heater time constant of heater transfer function
+        gain = 1.0  # gain of heater transfer function
+        alpha = 11.25  # energy loss coeficient
+        max_power = 2500  # in watts
 
         # Prediction - parametrization
         self.Tpred = 65  # prediction step in seconds
@@ -37,7 +38,7 @@ class MPC(object):
 
         self.C = C
 
-        # Discretization of state Matrixes
+        # Discretization of state matrices
         Ad = nu.add(A * self.Tpred, nu.eye(3))
         Bd = B * self.Tpred
         AA = Ad
@@ -65,7 +66,7 @@ class MPC(object):
         # weigth matrix
         Qz = nu.eye(self.N)
 
-        # Predicting only for first state, so matrixes are reduced to decrease difficulty of calcualtion
+        # Predicting only for first state, so matrices are reduced to decrease difficulty of calculation
         # AA to aa and BB to bb, where xx = XX/3 in state sense
         self.aa = nu.zeros((self.N, 3))
         for gg in range(self.N):
@@ -97,7 +98,7 @@ class MPC(object):
         self.G = cx.matrix(G)
 
         # bounds used for u
-        ub = 2000 # upper bound
+        ub = 2500  # upper bound
         lb = 0 # lower bound
 
         h1 = cx.matrix(nu.ones((self.N, 1)) * ub)

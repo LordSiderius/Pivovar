@@ -1,5 +1,5 @@
 from tkinter import *
-from multiprocessing import Queue
+from multiprocessing import Queue, Process, Value, Array
 
 class Gui(object):
     def __init__(self, sp, temperature, power_queue, gui_output, gui_input):
@@ -182,9 +182,28 @@ class Gui(object):
         root.mainloop()
 
 if __name__ == "__main__":
-    sp = Queue()
-    power_queue = Queue()
-    power_req_queue = Queue()
-    temperature = Value('d', 0.0)
-    gui_output = Queue()
-    gui = Gui(sp, temperature, power_req_queue, gui_output)
+    desired_time = [0, 5, 25, 45, 75, 105, 115, 145, 155, 185, 195, 210, 211, 250, 340]
+    desired_temps = [25, 25, 37, 37, 55, 55, 62, 62, 72, 72, 80, 80, 65, 99, 99]
+    temperature = Value('d', 17.0)
+    tempSetPoint = Value('d', 22.0)
+    timeElapsed = Value('d', 0.0)
+    timeMPC = Value('d', 0.0)
+    stateOfControl = Value('i', 3)
+    stateRequest = Value('i', 3)
+    methodRequest = Value('i', 1)
+    powerAdding = Value('d', 0.0)
+    powerManual = Value('d', 0.0)
+    powerToArd = Array('i', [0, 0])
+    powerToPwm = Value('d', 0.0)
+    statesShared = Array('d', [0, 0, 0])
+    powerFromMpc = Value('d', 0.0)
+    powerFromPid = Value('d', 0.0)
+    active = Value('i', 1)
+    power_coil = Value('d', 0.0)
+    power_heater = Value('d', 0.0)
+
+    gui_interface = [temperature, tempSetPoint, timeElapsed, timeMPC, powerToPwm, stateOfControl, stateRequest,
+                     methodRequest,
+                     powerAdding, powerManual, desired_time, desired_temps]
+
+    gui = Gui(gui_interface)
