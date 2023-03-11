@@ -2,173 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bf15f83-f9f9-45f6-894e-98237336ffc2" name="Default" comment="MPC and Observer connected, only two seconds of heating necessary, something is wrong. Maybe seconds and minutes mixed together. Check again tomorrow.">
-      <change afterPath="$PROJECT_DIR$/../Currency_rates/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lunar_game/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lunar_game/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ChecKio/zkurvena_rekurze.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lunar_game/.idea/Lunar_game.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lunar_game/.idea/Lunar_game.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lunar_game/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lunar_game/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lunar_game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lunar_game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lunar_game/Game_core _classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lunar_game/Game_core _classes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Machine_Learning" beforeDir="false" afterPath="$PROJECT_DIR$/../Machine_Learning" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/.idea/MaymoonEatsPizza.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/Game_core _classes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/Run_animation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/origins/Maymoon/Bez názvu.xcf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/origins/Maymoon/Maymoon_prj.xcf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/origins/aligning.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/origins/aligning.xcf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/origins/pic1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/origins/pic1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/origins/pic1.xcf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/origins/pic2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/origins/pic2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/origins/pic2.xcf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/origins/pic3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/origins/pic3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/origins/pic3.xcf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/origins/pic4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/origins/pic4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/origins/pic4.xcf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/origins/pic5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/origins/pic5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/origins/pic5.xcf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/origins/pic6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/origins/pic6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/origins/pic6.xcf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/origins/pic7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/origins/pic7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/origins/pic7.xcf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/origins/pic8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/origins/pic8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/origins/pic8.xcf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/origins/pic_1_aligning.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/origins/running-man-animation.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/pics/pic_1_aligning.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/pics/pic_2_aligning.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/pics/pic_3_aligning.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/pics/pic_4_aligning.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/pics/pic_5_aligning.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/pics/pic_6_aligning.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/pics/pic_7_aligning.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaymoonEatsPizza/pics/pic_8_aligning.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/TEST_foto/Dani/Dani_11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/TEST_foto/Dani/Dani_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/TEST_foto/Dani/Dani_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/TEST_foto/Dani/Dani_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/TEST_foto/Tori/Tori_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/TEST_foto/Tori/Tori_12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/TEST_foto/Tori/Tori_13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/TEST_foto/Tori/Tori_14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/TEST_foto/Tori/Tori_15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/TEST_foto/Tori/Tori_17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/TEST_foto/Tori/Tori_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Dani/Dani_0 (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Dani/Dani_0 (3).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Dani/Dani_0 (4).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Dani/Dani_0 (5).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Dani/Dani_0 (6).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Dani/Dani_0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Dani/Dani_10 (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Dani/Dani_10 (3).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Dani/Dani_10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Dani/Dani_12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Dani/Dani_13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Dani/Dani_14 (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Dani/Dani_14 (3).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Dani/Dani_14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Dani/Dani_15 (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Dani/Dani_15 (3).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Dani/Dani_15 (4).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Dani/Dani_15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Dani/Dani_17 (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Dani/Dani_17 (3).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Dani/Dani_17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Dani/Dani_3 (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Dani/Dani_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Dani/Dani_5 (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Dani/Dani_5 (3).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Dani/Dani_5 (4).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Dani/Dani_5 (5).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Dani/Dani_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Dani/Dani_8 (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Dani/Dani_8 (3).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Dani/Dani_8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Dani/Dani_9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_0 (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_0 (3).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_0 (4).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_0 (5).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_1 (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_1 (3).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_1 (4).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_10 (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_10 (3).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_10 (4).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_10 (5).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_10 (6).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_11 (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_11 (3).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_11 (4).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_12 (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_12 (3).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_12 (4).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_13 (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_13 (3).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_13 (4).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_15 (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_15 (3).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_16 (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_2 (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_2 (3).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_3 (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_5 (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_5 (3).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_5 (4).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_5 (5).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Tori/Tori_8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Unknown/Dani_10 (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Unknown/Dani_10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Unknown/Dani_12 (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Unknown/Dani_12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Unknown/Dani_15 (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Unknown/Dani_15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Unknown/Dani_2 (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Unknown/Dani_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Unknown/Dani_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Unknown/Dani_9 (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Unknown/Dani_9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Unknown/Tori_10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Unknown/Tori_14 (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Unknown/Tori_14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Unknown/Tori_15 (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Unknown/Tori_15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Unknown/Tori_17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Unknown/Tori_2 (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Unknown/Tori_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Unknown/Tori_3 (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Unknown/Tori_3 (3).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Unknown/Tori_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Unknown/Tori_9 (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCv/Test_data/Unknown/Tori_9.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gui_py.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gui_py.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MPC.py" beforeDir="false" afterPath="$PROJECT_DIR$/MPC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PID.py" beforeDir="false" afterPath="$PROJECT_DIR$/PID.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PWM.py" beforeDir="false" afterPath="$PROJECT_DIR$/PWM.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,6 +23,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -199,19 +38,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Properties" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/repos/Pivovar"
+  }
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
-      <console-settings module-name="PivoVar" is-module-sdk="true" working-directory="C:/PythonVE/Python_32">
+      <console-settings module-name="PivoVar" is-module-sdk="true" working-directory="$PROJECT_DIR$/../../PythonVE/Python_32">
         <option name="myUseModuleSdk" value="true" />
         <option name="myModuleName" value="PivoVar" />
-        <option name="myWorkingDirectory" value="C:/PythonVE/Python_32" />
+        <option name="myWorkingDirectory" value="$PROJECT_DIR$/../../PythonVE/Python_32" />
       </console-settings>
     </option>
   </component>
@@ -396,7 +235,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="version to be finished&#10;needs to be integrated to gui&#10;also parallel timers events must be set" />

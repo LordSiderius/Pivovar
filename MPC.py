@@ -15,7 +15,7 @@ class MPC(object):
         Tau2 = 265  # intertia of heater time constant of heater transfer function
         gain = 1.0  # gain of heater transfer function
         alpha = 11.25  # energy loss coeficient
-        max_power = 2500  # in watts
+        max_power = 2000  # in watts
 
         # Prediction - parametrization
         self.Tpred = 65  # prediction step in seconds
@@ -98,7 +98,7 @@ class MPC(object):
         self.G = cx.matrix(G)
 
         # bounds used for u
-        ub = 2500  # upper bound
+        ub = max_power  # upper bound
         lb = 0 # lower bound
 
         h1 = cx.matrix(nu.ones((self.N, 1)) * ub)

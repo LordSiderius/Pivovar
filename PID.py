@@ -50,8 +50,8 @@ class Pid(object):
             self.u += prop + intg + derv + forward - self.forward
 
             # saturation to maximum power 0 - 2000W
-            if self.u > 1500:
-                self.u = 1500
+            if self.u > 2000:
+                self.u = 2000
 
             elif self.u < 0:
                 self.u = 0
